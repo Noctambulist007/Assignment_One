@@ -1,16 +1,31 @@
-# assignment_3
+# Assignment 3
 
-A new Flutter project.
+# Task Manager App
 
-## Getting Started
+A Flutter task management application that allows users to create, categorize, and prioritize their tasks.
 
-This project is a starting point for a Flutter application.
+# ScreenShot
 
-A few resources to get you started if this is your first Flutter project:
+<img width="390" alt="Screenshot 2024-10-02 at 7 18 06 PM" src="https://github.com/user-attachments/assets/d37bef3b-5a3c-4b14-9d70-0fdee904c259">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- **Task Creation**: Users can create tasks with the following attributes:
+  - Title
+  - Description
+  - Due Date
+  - Priority (1-5)
+  - Tags (Comma-separated)
+  - Automatic categorization (Work, Personal, Shopping, Urgent)
+  
+- **Task Listing**: View all tasks in a list format.
+  - Tasks are displayed with title, description, due date, priority, and category.
+
+- **Task Categorization**: Tasks are automatically categorized based on their description using a regex-based system:
+  - Work, Personal, Shopping, Urgent
+
+- **Add Task Button**: A floating action button to quickly create new tasks.
+
+- **Bottom Sheet**: Task creation form opens in a stylish modal bottom sheet.
+
